@@ -1,0 +1,12 @@
+.header{
+    display:flex;
+    position: relative;
+    margin: auto;
+}
+.NavBar{
+    position: relative;
+    left: 25%;
+    top: 5px;
+    font-size: medium;
+       
+}

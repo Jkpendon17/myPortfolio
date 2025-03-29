@@ -3,14 +3,19 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+  
   }
   
   .section {
     padding: 60px 0;
+  
+    
+    
   }
   
   h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
-    color: #333;
+    color: #f7f0f0;
   }
+  

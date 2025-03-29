@@ -1,0 +1,17 @@
+
+.name{
+    display: block;
+    position: relative;
+   
+    font-size:50px;
+}
+.position{
+    position: relative;
+    bottom: 45px;
+    font-size: 30px;
+}
+.about-content{
+    position: relative;
+    bottom: 20px;
+}
+
