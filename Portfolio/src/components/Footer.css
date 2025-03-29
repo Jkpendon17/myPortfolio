@@ -1,0 +1,42 @@
+.footer {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .copyright {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #e2e8f0;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    color: #e2e8f0;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #3182ce;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }

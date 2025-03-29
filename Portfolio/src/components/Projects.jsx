@@ -1,6 +1,8 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import './Projects.css';
+import Awesome from "../assets/images/awesometodos.png"
+import Anisave from "../assets/images/anisave.png"
 
 const Projects = () => {
   const projects = [
@@ -8,19 +10,19 @@ const Projects = () => {
       id: 1,
       title: 'AwesomeTodos',
       description: 'A clean and intuitive todo application with task management features, built with React and Node.js.',
-      technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB','Netlify'],
       githubLink: 'https://github.com/Jkpendon17/Assignment',
       demoLink: 'https://awesometodosbyjk17.netlify.app/',
-      imageUrl: '/images/todo-app.jpg'
+      imageUrl: Awesome
     },
     {
       id: 2,
-      title: 'E-Commerce Platform',
-      description: 'Full-featured online store with product listings, shopping cart, and checkout system.',
-      technologies: ['React', 'Redux', 'Firebase', 'Stripe'],
-      githubLink: '#',
+      title: 'Anisave',
+      description: 'A webpage application for customers that wants to buy and sell a product. It has a easy features to navigate and management',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
+      githubLink: 'https://github.com/Janriisasi/anisave',
       demoLink: '#',
-      imageUrl: '/images/ecommerce.jpg'
+      imageUrl: Anisave
     }
   ];
 

@@ -5,11 +5,14 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
       <div className="project-image-container">
-        <img 
-          src={project.imageUrl || '/default-project.jpg'} 
+        <img
+          src={project.imageUrl || '/default-project.jpg'}
           alt={project.title}
           className="project-image"
-        />
+          onError={(e) => {
+          e.target.src = '/default-project.jpg';
+          }}
+          />
       </div>
       <div className="project-content">
         <h3 className="project-title">{project.title}</h3>

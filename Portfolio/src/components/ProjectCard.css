@@ -11,7 +11,7 @@
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 16px rgba(190, 185, 185, 0.15);
 }
 
 .project-image-container {
@@ -40,12 +40,12 @@
 .project-title {
   margin: 0 0 0.75rem 0;
   font-size: 1.3rem;
-  color: #2d3748;
+  color: #e1e5eb;
   font-weight: 600;
 }
 
 .project-description {
-  color: #4a5568;
+  color: #e1e5eb;
   margin-bottom: 1.25rem;
   line-height: 1.5;
   flex-grow: 1;
@@ -59,8 +59,8 @@
 }
 
 .tech-tag {
-  background: #edf2f7;
-  color: #2d3748;
+  background: #e1e5eb;
+  color: #1c2129;
   padding: 0.35rem 0.75rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -85,7 +85,7 @@
 }
 
 .project-link:hover {
-  color: #2c5282;
+  color: #edf2f7;
 }
 
 .project-link i {

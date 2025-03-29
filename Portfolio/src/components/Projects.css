@@ -1,24 +1,27 @@
 .projects-section {
     padding: 5rem 0;
-    background: #19191a;
+    text-align: center;
+    position: relative;
+    top: -15px;
   }
   
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.5rem;
+    align-items: center;
   }
   
   .section-title {
     text-align: center;
     font-size: 2rem;
-    color: #2d3748;
+    color: #e1e4eb;
     margin-bottom: 0.5rem;
   }
   
   .section-subtitle {
     text-align: center;
-    color: #718096;
+    color: #e1e4eb;
     margin-bottom: 3rem;
     font-size: 1.1rem;
   }
@@ -28,6 +31,7 @@
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 2rem;
   }
+
   
   @media (max-width: 768px) {
     .projects-grid {
