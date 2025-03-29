@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Github from "../assets/images/Github.png"; 
-import LinkedIn from "../assets/images/linkedin.png"; 
+import LinkedIn from "../assets/images/linkedIn.png"; 
 import Reddit from "../assets/images/Reddit.png"; 
 import LogoCard from "./logoCard"; 
 
