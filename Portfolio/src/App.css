@@ -3,7 +3,9 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-  
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
   }
   
   .section {
@@ -15,4 +17,13 @@
     margin-bottom: 30px;
     color: #f7f0f0;
   }
+  /* App.css */
+/* Ensure content is readable */
+
+ 
+
+/* Text contrast */
+h1, h2, h3, p {
+  text-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
   

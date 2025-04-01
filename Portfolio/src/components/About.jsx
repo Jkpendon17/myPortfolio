@@ -23,13 +23,13 @@ const About = () => {
         />
         <LogoCard
           logoImage={LinkedIn}
-          link="https://linkedin.com/in/yourprofile"
+          link="https://www.linkedin.com/in/julius-ken-pendon-b292a2198/"
           width="55px"
           height="55px"
         />
         <LogoCard
           logoImage={Reddit}
-          link="https://reddit.com/user/yourprofile"
+          link="https://www.reddit.com/user/Subject_Home_2239/"
           width="55px"
           height="55px"
         />
